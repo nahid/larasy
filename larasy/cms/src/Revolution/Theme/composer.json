@@ -1,8 +1,8 @@
 {
-    "name": "nahid/talk",
-    "description": "Talk is a PHP based users conversations library. It helps to develop users messages and conversations in easy way. Talk also support Laravel 5>=",
-    "keywords": ["message", "inbox", "conversations", "chat", "php", "laravel"],
-    "homepage": "https://github.com/nahid/talk",
+    "name": "revolution/theme",
+    "description": "theme manage all functionalities to handle larasy themes",
+    "keywords": ["theme", "larasy", "skin"],
+    "homepage": "https://larasy.github.io/theme",
     "type": "library",
     "license": "Creative Commons",
     "authors": [
@@ -14,9 +14,7 @@
   "require": {
     "php": ">=5.4.0",
     "illuminate/contracts": "5.0.* || 5.1.* || 5.2.* || 5.3.*",
-    "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.*",
-    "sebastian-berc/repositories": "^1.0",
-    "nesbot/carbon": "^1.21"
+    "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.*"
   },
   "require-dev": {
     "graham-campbell/testbench": "^3.1",
@@ -24,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Nahid\\Talk\\": "src/"
+      "Revolution\\Theme\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Nahid\\Talk\\Tests\\": "tests/"
+      "Revolution\\Theme\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",

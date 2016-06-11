@@ -1,0 +1,43 @@
+{
+    "name": "larasy/sweethome",
+    "description": "A theme for larasy",
+    "keywords": ["theme", "template"],
+    "license": "MIT",
+    "type": "project",
+    "theme": {
+        "name": "sweethome",
+        "description": "This is default themeplate for larasy",
+        "version": "1.2",
+        "title": "SweetHome Responsive Theme",
+        "images":{
+            "screenshot": "assets/images/screenshot.png",
+            "img80": "assets/images/img80.png"
+        },
+        "authors":{
+            "name": "Larasy",
+            "url": "http://larasy.github.io"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+            "Themes\\SweetHome\\": "src/",
+
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+    }
+}
