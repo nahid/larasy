@@ -1,0 +1,43 @@
+{
+  "name": "larasy/cms",
+  "type": "cms",
+  "description": "The Larasy CMS",
+  "keywords": [
+    "larasy",
+    "cms"
+  ],
+  "homepage": "http://larasy.github.io",
+  "support": {
+    "issues": "https://github.com/nahid/larasy/issues",
+    "source": "https://github.com/nahid/larasy"
+  },
+  "license": "Creative Common",
+  "authors": [
+    {
+      "name": "Nahid Bin Azhar",
+      "email": "talk@nahid.co",
+      "homepage": "http://nahid.co"
+    },
+    {
+      "name": "Shipu Ahmed",
+      "email": "shipuahmed@gmail.com",
+      "homepage": "http://shipuahamed.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Revolution\\": "src/Revolution/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      
+    }
+  }
+}

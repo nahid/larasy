@@ -21,7 +21,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Revolution\\": "larasy/src/Revolution/",
+            "Revolution\\": "larasy/cms/src/Revolution/",
             "Larasy\\Tools\\":"larasy/Tools/",
             "Larasy\\Themes\\":"larasy/Themes/"
         }
